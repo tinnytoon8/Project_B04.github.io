@@ -1,0 +1,176 @@
+/*based style  ========================*/
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+
+/*saya nambahin container *hisyam */
+.container {
+  width: auto;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/*sampe sini */
+
+nav {
+	background-color: rgba(255, 255, 255, 0.1);
+	color: white;
+	display: flex;
+	justify-content: space-around;
+}
+header {
+	background: url("https://i.ibb.co/R0nXsVY/house-1946371-1920.jpg") rgba(0,0,0, 0.3);
+	background-blend-mode: multiply;
+	background-size: cover;
+	color:white;
+}
+.top-wrapper{
+	padding: 150px 0 150px 270px;
+}
+
+.call-number{
+	font-weight: 300;
+}
+
+header h2{
+	font-weight: 400;
+}
+.btn {
+	padding: 12px 24px;
+  	color: white;
+  	display: inline-block;
+  	opacity: 0.8;
+  	border-radius: 4px;
+}
+.btn:hover{
+	opacity:1;
+	transition: 0.3s;
+}
+.get-started {
+	background-color: #239b76;
+
+}
+
+/*saya nambahin css buat body *hisyam */
+
+.why-us{
+	text-align:center;
+	margin: 100px 0;
+	height: 350px;
+}
+
+.reason{
+	float:left;
+	width: 33.3%;
+}
+
+.reason-icon{
+	border-radius: 50%;
+    width: 125px;
+	height: 125px;
+	margin: auto;
+}
+
+
+.first{
+	background: rgb(236, 65, 65);
+}
+
+
+.second{
+	background: rgb(54, 206, 87);
+}
+
+
+.third{
+	background:rgb(106, 167, 236);
+}
+
+.reason p{
+	width: 80%;
+	margin: auto;
+}
+
+.started{
+	height: 600px;
+}
+.circle-img{
+	width: 45%;
+	float: left;
+	margin-right: 0px;;
+	text-align: center;
+}
+
+.bulat{
+	border-radius: 50%;
+	height:350px;
+}
+
+.started-content{
+
+	padding-top: 0px;
+}
+
+.started-content .get-started{
+	margin-top: 30px;
+}
+
+.fa-line-chart{
+	color: white;
+	margin-top: 38px;
+}
+
+.fa-dot-circle-o{
+  color: white;
+  margin-top: 32px;
+}
+
+.fa-hourglass-end{
+	color: white;
+	margin-top: 38px;
+}
+/*sampe sini *hisyam */
+.faq-essential h2{
+	text-align: center;
+	font-weight: 50px;
+	padding: 20px;
+	margin-top: 150px;
+}
+
+.essentials{
+	margin-left: 20%;
+	width: 400px;
+	box-sizing: border-box;
+	float: left;
+	margin-top: 10px;
+	
+}
+.essentials h3{
+	font-weight: bold;
+	
+}
+
+.applying{
+	float: right;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-right: 250px;
+}
+table{
+	margin-bottom: 80px;
+}
+
+/*footer======================*/
+footer{
+	margin-top: 20px;
+	color: white;
+	background-color: black;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
