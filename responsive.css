@@ -1,0 +1,63 @@
+/*for tablet with screen down to 1000px*/
+@media all and (max-width: 1000px) {
+
+	header{
+		width:auto;
+	}
+	.top-wrapper {
+		padding: 150px 0 120px 100px;
+	}
+	.circle-img{
+		margin-left: -12px;
+		margin-right: -12px;
+	}
+	.bulat{
+		height: 300px;
+	}
+  	.started-content{
+  		width: 950px;
+  		padding-top: 0;
+  	}
+  	.started-content h1 {
+  		font-size: 1.7rem;
+  	}
+  	.started-content p {
+  		font-size: 1rem;
+  	}
+  	.faq-essential h2{
+		margin-top: 120px;
+}
+  	.essentials{
+  		margin-left: 100px;
+  		width: auto;
+  	}
+  	.applying {
+  		margin-left: 10px;
+  		margin-right: 125px;
+  	}
+}
+/*for smartphone with screen down to 670px*/
+@media all and (max-width: 670px) {
+	.circle-img{
+		float: none;
+	}
+	.bulat{
+		height: 250px;
+		margin-left: 70%;
+	}
+	.started-content{
+		text-align: center;
+		width: 75%;
+		margin-left: 12%;
+	}
+	.faq-essential h2{
+		margin-top: 75px;
+	}
+	.essentials, .applying{
+		float: none;
+		margin-left: 25%;
+	}
+	footer{
+		margin-top: 105%;
+	}
+}
